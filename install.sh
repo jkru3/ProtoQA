@@ -1,4 +1,4 @@
-conda create -n protoqa python=3.6
+conda create -n protoqa python
 conda activate protoqa
 git clone https://github.com/iesl/protoqa-evaluator.git
 pip install -e protoqa-evaluator
