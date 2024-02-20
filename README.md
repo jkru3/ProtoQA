@@ -1,17 +1,19 @@
-# ProtoQA-GPT2 Baseline
+# ProtoQA-GPT3 Baseline
 
-This repo contains the GPT2 baselines in the [ ProtoQA ](https://www.aclweb.org/anthology/2020.emnlp-main.85.pdf) paper. 
+This repo contains the GPT3 baselines in the [ ProtoQA ](https://www.aclweb.org/anthology/2020.emnlp-main.85.pdf) paper. 
 - The dataset is here: [https://github.com/iesl/protoqa-data](https://github.com/iesl/protoqa-data)
 - The proposed evaluation is here: [https://github.com/iesl/protoqa-evaluator](https://github.com/iesl/protoqa-evaluator)
 
 ## Requirments
+TODO: Update this
 - Pytorch: 1.4.0
 - Huggingface transformer: 2.1.1
 
 Following the install.sh in the repo will create a conda environment named protoqa, with corresponding libraries installed. Note: protoqa-evaluater is included. 
 
-## Download fine-tuned GPT2 model and generate answers
-Colab notebook demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elliottower/ProtoQA_GPT2/blob/main/GPT2_demo.ipynb)
+## Download fine-tuned GPT3
+model and generate answers
+Colab notebook demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jkru3/ProtoQA_GPT3/blob/main/GPT2_demo.ipynb)
 
 - Fine-tuned model can be downloaded [here](https://drive.google.com/file/d/1HmwcYbuUe0EQN0a2mOnv68pv3w-6Kivn/view?usp=sharing)
 - Generate answers using the fine-tuned GPT2 model:
